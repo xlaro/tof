@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+
+  "sports": {
+    "slug": "channels/Sports.json",
+
+    "events": [
+      "encrypted_string_1",
+      "encrypted_string_2"
+    ],
+
+    "highlights": [
+      "encrypted_string_1"
+    ]
+  },
+
+  "config": {
+    "app_version": 3,
+
+    "links": {
+      "download_url": "https://github.com/test.apk",
+      "web_url": "https://neo.top",
+      "telegram": "https://t.me/neo"
+    },
+
+    "update_control": {
+      "min_version": 3,
+      "force": true,
+      "message": "Please update Neo Player to continue using the app.",
+      "button_text": "Update Now"
+    },
+
+    "messages": [
+      {
+        "id": "update_001",
+        "type": "update",
+        "text": "Upgrade to Neo Player for a faster, smoother, and smarter streaming experience.",
+        "url": "https://neo.top",
+        "enabled": true
+      }
+    ],
+
+    "ads": {
+      "external": {
+        "enabled": true,
+        "url": "https://ads.example.com/open",
+        "repeat_after": 10
+      },
+
+      "banner": {
+        "enabled": true,
+        "image_url": "https://cdn.example.com/banner.jpg",
+        "click_url": "https://ads.example.com/click"
+      }
+    }
+  }
+}
