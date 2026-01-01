@@ -1,32 +1,25 @@
 {
   "schema_version": 1,
-
   "sports": {
     "slug": "channels/Sports.json",
-
     "events": [
+      "BfCTKO28z+zN0f8X54hp2ZDfPDFwyhoIGHx8DCZXB8VxTDNNh8cxEp0N84BGJ5s64osV9AMjSvEDNxL2ppKQTO6sHe1UYnIKu2xPbWxXKYwM/i9er909zfIt8eJfNniu1QenfX1994Qh9yBH6UHQnCk4XIZG3azJzPifjXMpJvG0V/xljVqaOV+hIueGio7217GX1ok8V5HOgBIko/VXIf+0eSpe6uTuwwm0PturAAM/vYypgHx0P5NRXS3I6v/qUHNHWJb4hcIlan/alTMzj0eTLYltDr/uH//It1pBUeDJ+fg/koRDxcAllfAbXxkgJWbWSLZIHeVXmdAJhhMagJMHMJfOaXWVJnlyG2zvytJtZP5hFfrRbOQNZnaqJ2bYDCCjr5i/xVrDPX+h1yjHfSRdMI96K3tei7kFW22+9kHXRLaSIaFf1rm/PYYvKEjRguiwJ4bwEe1IHTyU+lhwhEzH+qQGyHi89UzMaNuKNyaE+n3HptpgupTP83F/CJCqD17pBdpkAuy8BQbgtWVF6QOy5W8rkfOJ0y7xdZB1f+L9MCBmfbfFo4yBM+0Ee2cO9UEhgG14XBSxJwyyHgHfCyb5JaX6gbisFQQjxAkyJgQD6QQvNGntqU/bPkInff/XHJBlgcLTD3TkJFT8kOL549ZR8kugn5NtFS2T1SZW+kg="
     ],
-
-    "highlights": [
-    ]
+    "highlights": []
   },
-
   "config": {
     "app_version": 3,
-
     "links": {
       "download_url": "https://github.com/test.apk",
       "web_url": "https://neo.top",
       "telegram": "https://t.me/neo"
     },
-
     "update_control": {
       "min_version": 3,
       "force": true,
       "message": "Please update Neo Player to continue using the app.",
       "button_text": "Update Now"
     },
-
     "messages": [
       {
         "id": "update_001",
@@ -36,14 +29,12 @@
         "enabled": true
       }
     ],
-
     "ads": {
       "external": {
         "enabled": true,
         "url": "https://ads.example.com/open",
         "repeat_after": 10
       },
-
       "banner": {
         "enabled": true,
         "image_url": "https://cdn.example.com/banner.jpg",
